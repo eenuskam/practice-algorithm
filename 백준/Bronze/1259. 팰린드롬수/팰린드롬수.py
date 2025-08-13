@@ -1,8 +1,8 @@
 while True:
-    num = int(input())
-    if num == 0:
+    num = input()
+    if int(num) == 0:
         break
-    if list(reversed(str(num))) == list(str(num)):
+    if list(reversed(num)) == list(num):
         print('yes')
     else:
         print('no')
